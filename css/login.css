@@ -1,0 +1,45 @@
+
+
+body{
+    background-repeat:no-repeat;
+    /* background-size: contain;
+    background-size: cover; */
+   background-size: 1500px 800px;
+}
+div{
+     background-color:rgba(215, 247, 247, 0.3); 
+     margin: auto;
+     display: inline-block;
+    box-sizing: border-box;
+   }
+   
+  .imgg {
+    width: 16%;
+    border-radius: 50%;
+    margin:  20px 320px ;
+    padding: 0px 240px;
+    position: relative;
+  }
+  .contact {
+    padding: 0px 250px 0 250px ;
+    margin:  -10px 300px 0px ;
+  }
+  .sub{
+   
+    width: 300px;
+  }
+  .container {
+    margin:  -10px 480px ;
+  }
+  .cancelbtn {
+      width: 70px;
+      height: 20px;
+      display: inline-block;
+    background-color: #a3121277;
+    
+  }
+  
+  
+   .psw{
+     padding: 0 0px 0 200px ;
+   }

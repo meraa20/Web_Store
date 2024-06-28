@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    margin: 5px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    position:fixed ;
+    z-index: 999;
+}
+.logo a{
+    display: flex;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+.logo a:hover{
+    transform: scale(1.1);
+}
+.logo img{
+    padding: 10px 40px;
+    width: 45%;
+}
+header a{
+
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 1.1em;
+}
+.nav1{
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+    
+}
+header .icon{
+    margin: 15px;
+}
+
+.nav1 div{
+    margin: 0 60px;
+    transition: 0.7s ease;
+}
+.nav1 div:hover{
+    transform: scale(1.1);
+}
+.nav2 {
+    display: flex;
+    flex-direction: row;
+}
+.nav2 div{
+    transition: 0.7s ease;
+}
+
+.nav2 div:hover{
+    transform: scale(1.1)
+}
+.nav2 div a{
+    color: #4b8791;
+}
+.sign-in{
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-size: .85em;
+    color: #71c6db;
+    margin-left: 50px;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width : 100%;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background: url("../images/background3.jpg") no-repeat;
+    background-size: cover;
+    background-position:  top;
+    background-attachment: fixed;
+    flex-direction: row;
+}
+.main .content{
+    width: 100vh;
+    color: white;
+}
+.nav1 a{
+    color: white;
+}
+.sale{
+    font-size: 2em;
+}
+.shop-button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7adbed;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5em;
+    transition: 0.7s ease;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.shop-button:hover{
+    transform: scale(1.1);
+    background-color:#4b8791 ;
+    margin-bottom: 10px;
+}
+.main h2{
+    font-size: 3.5em;
+    color: white;
+    text-transform: uppercase;
+}
+.main h3{
+    font-weight: 200;
+    font-size: 3em;
+}
+.main .sale{
+    display: inline-block;
+    font-weight: bold;
+    background-color: red;
+    border-radius:200px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size:2.5em;
+    color: aliceblue;
+}
+.ct-content{
+    display: flex;
+    justify-content: center;
+}
+#categories{
+    background-color: #84d9ee;
+}
+.ct-card{
+    width:60vh;
+    min-height: 60vh;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 2vh;
+    transition:0.7s ease;
+    margin-top: 50px;
+}
+.ct-card img{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.ct-card:hover{
+    transform: scale(1.1);
+
+}
+.ct-info {
+    font-size: 2.5em;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.contact-se{
+    background-color: rgb(6, 92, 111);
+    height: 5%;
+}
+.contact-se h2{
+    color: #7adbed;
+    font-size: 2.5em;
+}
+.con-info{
+    color: #7adbed;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-se .con{
+    margin: 50px
+}
+.con .icon{
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+

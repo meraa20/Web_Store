@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <img src="images/img_avatar2.png" alt="Avatar" class="imgg"  >
+
+    <form method="post" action="home.html">
+        <div class="contact">
+            <p> <b>Email</b></p>
+            <p> <input class="sub" type="email" placeholder="Enter Username" name="username" required></p>
+            <p><b>Password </b> </p>
+            <p> <input class="sub" type="password" placeholder="Enter Password" minlength="10" maxlength="15" name="pas"
+                    required></p>
+            <p><input type="submit" value="login" style="background-color: green ;color: black;" name="sb" class="sub">
+            </p>
+            <p><input type="checkbox" checked="checked" name="remember" class="chec"> Remember me</p>
+        </div>
+
+        <div class="container">
+            <span class="psw">Forgot <a href="#">password?</a></span>
+            <span class="psw"><a href="signup.html">Create new account</a></span>
+        </div>
+    </form>
+</body>
+</html>
